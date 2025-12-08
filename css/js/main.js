@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function(){
     if(el) el.textContent = year;
   });
 
-  // mobile menu toggle
+  // mobile menu toggle...
   const menuBtns = document.querySelectorAll('.menu-btn');
   menuBtns.forEach(btn=>{
     btn.addEventListener('click', ()=>{
